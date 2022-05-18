@@ -26,6 +26,7 @@ Ambos cuentan con la estructura básica de HTML generada por Emmet.
 
 2. En el archivo `index.html` vas a crear un pequeño sitio web donde vas a vender un artículo u ofrecer un servicio. Es libre de tu elección y deberá de cumplir con las siguientes características:
 - Debe de tener un título principal.
+- Debe de contar con un encabezado y en él un enlace para ir al archivo `table.html`
 - Debe de contar con al menos las siguiente secciones:
   - Información técnica.
   - Reseñas
@@ -35,8 +36,9 @@ Ambos cuentan con la estructura básica de HTML generada por Emmet.
 - Debe de contar con una lista de personas que han adquirido el producto
 - Debe de contar con una lista con los pasos a seguir para adquirir el producto o servicio.
 - Debe de contar un pie de página (footer) donde venga el telefóno y correo de contacto tuyo
-- Debe de contar con un encabezado y en él un enlace para ir al archivo `table.html`
+
 - Debe de contar con una sección de Preguntas Frecuentes. La respuesta a cada una de las preguntas debe de estar oculto, hasta que la persona de click a la pregunta para poder ver el contenido (es una de las etiquetas vistas después de las tablas :P)
+- Debe de contar con una barra de progreso con el 80% de satisfacción del cliente
 
 **NOTAS**:
 - El contenido de este archivo debe de ser lo más semántico posible.
@@ -55,7 +57,7 @@ Ambos cuentan con la estructura básica de HTML generada por Emmet.
 - La tabla debe de contener al menos 10 registros
 - La tabla debe de tener un título (utilizando la etiqueta correspondiente)
 - En la columna de `Foto de perfil` debe de haber una imagen en lugar de un texto
-- En los correos electrónicos, debe de haber un enlace para enviar un correo electrónico (busca como se hace esto :P)
+- En los correos electrónicos, debe de haber un enlace para enviar un correo electrónico (utiliza la siguiente estructura `href="mailto:email@gmail.com"`)
 - La tabla debe de utilizar las etiquetas semánticas
 - Debe de haber una tabla de totales donde venga la cantidad de personas y el total de dinero recaudado
 
