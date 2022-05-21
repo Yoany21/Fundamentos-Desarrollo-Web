@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <form action="http://perritos.com.mx/salchicha" method="get" enctype="application/x-www-form-urlencoded"
+      autocomplete="on">
+      <label for="nombre">Pon tu nombre:</label>
+      <input type="text" name="nombre" id="nombre" value="Un nombre perron" size="100" maxlength="20"
+        placeholder="Juanito Perez" required autofocus>
+
+      <label for="apellido">Pon tu apellido:</label>
+      <input type="text" name="apellido" id="apellido">
+
+      <label for="edad">Pon tu edad:</label>
+      <input type="number" name="edad" id="edad" min="10" max="88" step="5">
+
+      <label for="email">Pon tu email:</label>
+      <input type="email" name="email" id="email" multiple>
+
+      <label for="color">Pon tu color favorito:</label>
+      <input type="color" name="color" id="color">
+
+      <label for="file">Pon tu archivo favorito:</label>
+      <input type="file" name="file" id="file" accept="image/jpeg">
+
+      <label for="test">Pon tu algo???:</label>
+      <input type="hidden" name="test" id="test" value="mira este es el valor oculto">
+
+      <label for="cumple">Pon tu fecha de cumple:</label>
+      <input type="date" name="cumple" id="cumple">
+
+      <label for="time">Pon aquiora sales de clase del melon:</label>
+      <input type="time" name="time" id="time">
+
+      <label for="cheves">Pon cuantas cheves te tomas:</label>
+      <input type="range" name="cheves" id="cheves" min="8" max="10">
+
+      <label for="contraseña">Pon tu contraseña:</label>
+      <input type="password" name="contraseña" id="contraseña">
+
+      <label for="texto">Pon un mensaje:</label>
+      <textarea name="texto" id="texto" cols="30" rows="4" placeholder="un texto que te guste"></textarea>
+
+      <label for="takis">Pon tus takis favs:</label>
+      <select name="takis" id="takis">
+        <optgroup label="Populares">
+          <option value="fuego">Fuego</option>
+
+          <option selected value="wakamole">wakamole</option>
+        </optgroup>
+        <optgroup label="Los conocen en su casa">
+          <option value="originales">originales</option>
+          <option value="cobra">cobra</option>
+        </optgroup>
+      </select>
+
+      <label for="radio">A ti te gusta la chelita?:</label>
+      Simon: <input checked type="radio" name="chelita" id="chelita-si" value="si">
+      No simon: <input type="radio" name="chelita" id="chelita-no" value="no-simon">
+
+      <label for="radio">A ti te gusta la botana?:</label>
+      Simon: <input type="radio" name="botana" id="botana-si" value="si">
+      No simon: <input type="radio" name="botana" id="botana-no" value="no-simon">
+
+      <label for="radio">A ti te gusta la flojera?:</label>
+      Simon: <input type="radio" name="flojera" id="flojera-si" value="si">
+      No simon: <input type="radio" name="flojera" id="flojera-no" value="no-simon">
+
+      <label for="chelas">Que chelas te gustan?:</label>
+      Indio: <input checked type="checkbox" name="chelas" id="chelas-indio" value="indio">
+      victoria: <input type="checkbox" name="chelas" id="chelas-victoria" value="victoria">
+      corona: <input type="checkbox" name="chelas" id="chelas-corona" value="corona">
+      bohemia: <input checked type="checkbox" name="chelas" id="chelas-bohemia" value="bohemia">
+
+      <fieldset>
+        <legend>Tu orden:</legend>
+
+        <label for="quesadilla">Quesadillas:</label>
+        <input type="text" name="quesadilla" id="quesadilla">
+
+        <label for="tacos">tacos:</label>
+        <input type="text" name="tacos" id="tacos">
+
+        <label for="gorditas">gorditas:</label>
+        <input type="text" name="gorditas" id="gorditas">
+
+      </fieldset>
+
+      <label for="browser">Navegadores:</label>
+      <input list="browser" name="browser" >
+      <datalist id="browser">
+        <option value="Internet Explorer">Internet Explorer</option>
+        <option value="Mozilla">Mozilla</option>
+        <option value="Google Chrome">Google Chrome</option>
+        <option value="Opera">Opera</option>
+      </datalist>
+
+      <input type="submit" value="Este es el texto que se muestra en mi boton">
+    </form>
+
+  </main>
+</body>
+
+</html>
