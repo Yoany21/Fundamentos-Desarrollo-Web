@@ -42,7 +42,7 @@ Sábado 4 de Junio de 2022 a las 23:59 hrs.
 12. Crea una versión con los cambios realizados en el paso anterior.
 13. Sube esos cambios a la rama remota con el mismo nombre de tu rama local actual.
 14. En tu repo local, ahora muévete a la rama `final-test-<name>-branch-2`.
-15. Estando en esa rama, descarga los cambios de la rama remota ``final-test-<name>-branch-3`. Esto deberá traerte el archivo `sync-repositories.txt`.
+15. Estando en esa rama, descarga los cambios de la rama remota `final-test-<name>-branch-3`. Esto deberá traerte el archivo `sync-repositories.txt`.
 16. Crea un nuevo archivo llamado `push-merge.txt`. Dentro de él, explica qué hace el comando push y qué hace el comando merge.
 17. Crea una versión con los cambios realizados en el paso anterior.
 18. Sube esos cambios a la rama remota con el mismo nombre de tu rama local actual.
