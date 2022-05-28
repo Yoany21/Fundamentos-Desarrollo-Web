@@ -7,7 +7,7 @@ Este es tu examen final (La verdad no es examen, pero se escucha tenebroso) sobr
 Sábado 4 de Junio de 2022 a las 23:59 hrs.
 
 ## Setup de ramas y convención de nombres
-1. Crea un `fork`de este repositorio dentro de tu cuenta personal de Github. Si ya cuentas con el fork realizado, tienes que estar contínuamente actualizando tu copia personal con las nuevas ramas del repositorio original, para ello, puedes seguir el siguiente tutorial:
+1. Crea un `fork` de este repositorio dentro de tu cuenta personal de Github. Si ya cuentas con el fork realizado, tienes que estar contínuamente actualizando tu copia personal con las nuevas ramas del repositorio original, para ello, puedes seguir el siguiente tutorial:
 
 2. Estando en tu repositorio local ligado a tu copia personal de este repositorio, asegúrate de estar en la rama `module-github/final-test`. Para esto puedes utilizar el comando `git status` o `git branch`.
 
@@ -56,7 +56,7 @@ Sábado 4 de Junio de 2022 a las 23:59 hrs.
 4. Crea una versión con los cambios realizados en el paso anterior.
 5. Sube esos cambios a la rama remota con el mismo nombre de tu rama local actual.
 
-### Sección 5 - Pull Request
+### Sección 4 - Pull Request
 1. Ubícate en tu rama `module-github/final-test-melo` en Github.
 2. Crea un Pull Request para meter tus cambios que existen en la rama `module-github/final-test-melo` dentro de la rama `module-github/final-test` **DEL REPOSITORIO DE ACTOSOFT, no del tuyo**. Es decir, vas a mandar un Pull Requests desde tu copia hacia el repo original.
 3. Manda el link de tu pull-request al canal de Discord `#ejercicio-tareas`, etiquetando a mínimo 2 instructores.
