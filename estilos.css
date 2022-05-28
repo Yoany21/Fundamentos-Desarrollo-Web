@@ -1,0 +1,48 @@
+/*--------------------------
+	SELECTORES
+--------------------------*/
+
+/* Selctor de tipo*/
+mark {
+	background: red;
+}
+
+/* Selector por id */
+#item1 {
+	background: green;
+}
+
+/* Selector por calse */
+.item2 {
+	background: orange;
+}
+
+/* Selectores anidados */
+ul#lista1.lista1 span {
+	background: red;
+}
+
+/* Selectores multiples */
+.parrafo1,
+.texto1,
+.parrafo2 {
+	color: orange;
+}
+
+/* Selectores por atributos
+	^ -> inicia con X
+	$ -> termina con X
+	* -> incluye X
+*/
+a[href^='www'] {
+	color: red;
+}
+
+a[href$='.com'] {
+	color: green;
+}
+
+/* Selector global */
+.contenedor1 * {
+	font-size: 30px;
+}
