@@ -3,6 +3,40 @@
 	font-family: 'Roboto';
 }
 
+*::selection {
+	background: #7300ff;
+	color: white;
+}
+
+.lista-navegacion {
+	list-style: none;
+	padding: 0;
+}
+
+.lista-navegacion li {
+}
+
+.lista-navegacion li a {
+	transition: all 0.2s;
+}
+
+.lista-navegacion li a:link {
+	text-decoration: none;
+	color: #00b096;
+}
+
+.lista-navegacion li a:visited {
+	color: #007160;
+}
+
+.lista-navegacion li a:active {
+	text-decoration: underline;
+}
+
+.lista-navegacion li a:hover {
+	font-size: 20px;
+}
+
 /*--------------------------
 	SELECTORES
 --------------------------*/
@@ -128,4 +162,152 @@ p.rojito#p3 {
 	width: 100%;
 	height: 300px;
 	background: radial-gradient(red, blue, orange);
+}
+
+/*--------------------------
+	BORDES Y OUTLINE
+--------------------------*/
+.borde1 {
+	width: 200px;
+	height: 100px;
+	background: #00b096;
+	border: solid 20px green;
+	border-radius: 10px;
+
+	outline: solid 10px red;
+	outline-offset: 2px;
+}
+
+/*--------------------------
+	COMBINADORES
+--------------------------*/
+.padre-combinadores > span {
+	color: red;
+}
+
+.padre-combinadores span + p {
+	color: green;
+}
+
+.padre-combinadores span ~ p {
+	color: orange;
+}
+
+/* .padre-combinadores p:last-of-type {
+	color: black;
+} */
+
+/*--------------------------
+	MODELO DE CAJA
+--------------------------*/
+.modelo-caja,
+.modelo-caja2 {
+	width: 300px;
+	height: 100px;
+	background: rgb(129, 129, 129);
+	padding: 20px 10px 40px 60px;
+	border: 5px solid red;
+}
+
+.modelo-caja {
+	margin-bottom: 100px;
+}
+
+.modelo-caja2 {
+	margin-top: 100px;
+}
+
+/*--------------------------
+	PSEUDO ELEMENTOS
+--------------------------*/
+.pseudo-elementos {
+	width: 200px;
+	height: 100px;
+	position: relative;
+}
+
+.pseudo-elementos::before {
+	content: 'u';
+	width: 20px;
+	height: 10px;
+	background: red;
+}
+
+.pseudo-elementos::after {
+	content: '😡';
+	width: 100%;
+	height: 100%;
+	background: red;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#pseudo-elementos p::first-letter {
+	color: blue;
+	font-size: 50px;
+}
+
+#pseudo-elementos p::first-line {
+	background: yellow;
+}
+
+#pseudo-elementos ul li::marker {
+	content: '👽';
+	font-size: 30px;
+}
+
+.input {
+	width: 300px;
+	height: 40px;
+	border-radius: 10px;
+	outline: none;
+	margin-bottom: 10px;
+	border: 3px solid rgb(0, 132, 255);
+}
+
+.input:invalid {
+	border: 3px solid red;
+}
+
+.input:valid {
+	border: 3px solid rgb(0, 215, 4);
+}
+
+.input:required {
+	background: rgb(194, 253, 255);
+}
+
+.input:read-only {
+	background: gray;
+	border: 20px solid green;
+}
+
+.input:focus {
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.prueba-pseudo-clases li:last-of-type {
+	color: orange;
+}
+
+.prueba-pseudo-clases li:first-of-type {
+	color: red;
+}
+
+.prueba-pseudo-clases p:first-child {
+	font-size: 40px;
+}
+
+.prueba-pseudo-clases p:last-child {
+	font-size: 40px;
+}
+
+.prueba-pseudo-clases-2 p:nth-last-child(even) {
+	color: orange;
+}
+
+table tbody tr:nth-child(even) {
+	background: #007160;
+	height: 10px;
 }
