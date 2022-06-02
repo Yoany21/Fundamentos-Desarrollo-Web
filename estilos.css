@@ -1,0 +1,44 @@
+/*SELECTORES*/
+/*Ejemplo: de tipo*/
+h1 {
+    color: orange;
+}
+mark {
+    background: red;
+}
+/*Ejemplo: por id*/
+#item1 {
+    background: aqua;
+}
+/*Ejemplo: por clase*/ 
+.item {
+    background: coral;
+}
+/*SELECTORES ANIDADOS*/
+/*Cambia según los atributos que se le den, y se reflejan en los elementos que cumplen con ellos*/
+ul#lista1.lista1 li span {
+    background: green;
+}
+/*SELECTORES MÚLTIPLES*/
+.parrafo1,
+.texto1,
+.parrafo2 {
+    color: purple;
+}
+/*SELECTORES POR ATRIBUTOS*/
+a[href='#'] {
+    color:pink;
+}
+a[href^='www'] {
+    color: chartreuse;
+}
+a[href$= 'org'] {
+    color: gold;
+}
+a[href*=Youtube] {
+    color: blueviolet;
+}
+/*SELECTOR GLOBAL: actúa en todo lo que hay en el HTML*/
+.contenedor1 * {
+font-size: 30px;
+}
