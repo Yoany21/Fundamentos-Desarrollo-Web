@@ -1,0 +1,3 @@
+¿Cuál es la importancia de utilizar branches cuando se trabaja en equipos de desarrollo?
+Nos permite generar un flujo de trabajo en el que una o varias personas puedan generar cambios en sus propias ramas para, posteriormente, almacenarlos en 
+la rama master, integrando todos esos cambios y/o funciones.
