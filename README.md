@@ -7,7 +7,7 @@ Este es tu examen final (La verdad no es examen, pero se escucha tenebroso) sobr
 Sábado 4 de Junio de 2022 a las 23:59 hrs.
 
 ## Setup de ramas y convención de nombres
-1. Crea un `fork` de este repositorio dentro de tu cuenta personal de Github. Si ya cuentas con el fork realizado, tienes que estar contínuamente actualizando tu copia personal con las nuevas ramas del repositorio original, para ello, puedes seguir el siguiente tutorial:
+1. Crea un `fork` de este repositorio dentro de tu cuenta personal de Github. Si ya cuentas con el fork realizado, tienes que estar contínuamente actualizando tu copia personal con las nuevas ramas del repositorio original, para ello, puedes preguntar a cualquier desarrollador de Actosoft cómo hacer esto.
 
 2. Estando en tu repositorio local ligado a tu copia personal de este repositorio, asegúrate de estar en la rama `module-github/final-test`. Para esto puedes utilizar el comando `git status` o `git branch`.
 
@@ -46,7 +46,7 @@ Sábado 4 de Junio de 2022 a las 23:59 hrs.
 16. Crea un nuevo archivo llamado `push-merge.txt`. Dentro de él, explica qué hace el comando push y qué hace el comando merge.
 17. Crea una versión con los cambios realizados en el paso anterior.
 18. Sube esos cambios a la rama remota con el mismo nombre de tu rama local actual.
-19. Una vez los cambios se hayan subido, muévete a tu carpeta `module-github/final-test-melo` y has merge de los cambios existentes en la branch `final-test-<name>-branch-2`.
+19. Una vez los cambios se hayan subido, muévete a tu branch `module-github/final-test-melo` y has merge de los cambios existentes en la branch `final-test-<name>-branch-2`.
 20. Actualiza tu rama remota `module-github/final-test-melo` con los cambios que existen actualmente en tu rama local con el mismo nombre.
 
 ### Sección 3 - README
