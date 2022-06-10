@@ -4,6 +4,11 @@
     padding: 0%;
     margin: 0%;
 }
+:root {
+    --color-primario: #566745;  
+    --color-secundario: #345654;
+    --color-bg1: #684632;
+}
 /*SELECTORES*/
 /*Ejemplo: de tipo*/
 h1 {
@@ -179,4 +184,11 @@ header {
     top: 0px;
     background: purple;
     z-index: 10;
+}
+.header {
+    background: var(--color-primario);
+    color: var(--color-secundario);
+}
+body {
+    background: var(--color-bg1);
 }
